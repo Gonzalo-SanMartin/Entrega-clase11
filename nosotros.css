@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("multimedia/imagen/20210203_135804.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.links {
+    border: 2px solid black;
+    background-color: rgb(130, 127, 124);
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+}
+.link li a{
+    font-size: 1,5em;
+    color: black;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+.texto-rojo{
+    color: brown;
+    background-color: chartreuse;
+    border: 2px solid black;
+    
+}
+.texto-seg {
+    color: white;
+    background-image: url("multimedia/imagen/20210405_183337.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

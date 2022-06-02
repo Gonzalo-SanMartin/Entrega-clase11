@@ -1,0 +1,42 @@
+body {
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.links {
+    border: 2px solid black;
+    background-color: bisque;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+}
+.link li a{
+    font-size: 1,5em;
+    color: black;
+    justify-content: space-around;
+}
+.grid-conteiner{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    gap: 10px;
+    grid-template-areas: 
+    'header header header'
+    'carousel carousel aside'
+    'carousel carousel aside'
+    'footer footer footer';
+}
+.grid-item{
+    border: 1px solid black;
+}
+.grid-img{
+    width: 100%;
+    height: 100%;
+}
+.item-uno{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
